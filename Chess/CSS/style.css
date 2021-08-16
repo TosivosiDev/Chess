@@ -1,0 +1,19 @@
+body, html {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: tt commons;
+  transition: .5s ease-in-out background;
+  background: gainsboro;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#container #canvas {
+  margin-top: 32px;
+}
